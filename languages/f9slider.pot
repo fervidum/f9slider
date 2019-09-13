@@ -1,0 +1,35 @@
+# Copyright (C) 2019 Fervidum
+# This file is distributed under the same license as the F9slider plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: F9slider 1.0.0alpha1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/f9slider\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-13T06:02:25-03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: f9slider\n"
+
+#. Plugin Name of the plugin
+msgid "F9slider"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://fervidum.github.io/f9slider/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Image slider plugin for WordPress"
+msgstr ""
+
+#. Author of the plugin
+msgid "Fervidum"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://fervidum.github.io/"
+msgstr ""

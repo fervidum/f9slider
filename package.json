@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "i18n": "wp i18n make-pot ."
+  }
+}
