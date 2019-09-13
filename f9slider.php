@@ -32,3 +32,5 @@ if ( ! class_exists( 'F9slider', false ) ) {
 function f9slider() {
 	return F9slider::instance();
 }
+
+f9slider();

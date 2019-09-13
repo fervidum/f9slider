@@ -25,6 +25,7 @@ final class F9slider {
 	 * F9slider Constructor.
 	 */
 	public function __construct() {
+		$this->define_constants();
 		$this->includes();
 		$this->init_hooks();
 	}
@@ -41,6 +42,18 @@ final class F9slider {
 	 */
 	private function define_constants() {
 		$this->define( 'F9SLIDER_ABSPATH', dirname( F9SLIDER_PLUGIN_FILE ) . '/' );
+	}
+
+	/**
+	 * Define constant if not already set.
+	 *
+	 * @param string      $name  Constant name.
+	 * @param string|bool $value Constant value.
+	 */
+	private function define( $name, $value ) {
+		if ( ! defined( $name ) ) {
+			define( $name, $value );
+		}
 	}
 
 	/**
@@ -66,6 +79,11 @@ final class F9slider {
 	 * Include required core files used in admin and on the frontend.
 	 */
 	public function includes() {
+		/**
+		 * Core classes.
+		 */
+		include_once F9SLIDER_ABSPATH . 'includes/f9slider-core-functions.php';
+
 		if ( $this->is_request( 'admin' ) ) {
 			include_once F9SLIDER_ABSPATH . 'includes/admin/class-f9slider-admin.php';
 		}
